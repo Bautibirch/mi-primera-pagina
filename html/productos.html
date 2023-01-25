@@ -5,22 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="estilosfooter-header">
+    <header class="estilosFooter-Header estiloParrafo2">
     <p>LOGO</p>
         <nav>
             <br>
-            <span><a href="index.html">HOME   </a>   PRODUCTOS   <a href="sobre-nosotros.html">   SOBRE NOSOTROS   </a><a href="contacto.html">   CONTACTO   </a></span>
+            <span><a href="../index.html">HOME   </a>   PRODUCTOS   <a href="sobre-nosotros.html">   SOBRE NOSOTROS   </a><a href="contacto.html">   CONTACTO   </a></span>
             
         </nav>
     </header>
     <main>
-    <h1>Productos</h1>
-    <h2>PC's</h2>
-    <img src="https://http2.mlstatic.com/D_NQ_NP_686659-MPE51634521901_092022-V.jpg" alt="Pc Gamer" class="productosimg">
-    <table class="colorlistas colorparrafo1">
+    <h1 class="colorParrafo1 fuenteTitulos">Productos</h1>
+    <hr>
+    <h2 class="colorParrafo1 fuenteTitulos">PC's</h2>
+    <img src="https://http2.mlstatic.com/D_NQ_NP_686659-MPE51634521901_092022-V.jpg" alt="Pc Gamer" class="ProductosImg">
+    <table class="colorListas colorParrafo1 estiloParrafo1">
         <tr>
             <th>Tipo</th> <th>Especificaciones Técnicas</th>
              <th>   Precio</th>
@@ -28,7 +32,7 @@
         <tr>
             <td>PC gama Baja</td> 
             <td>
-                <ul>
+                <ul class="ulEstilo">
                     <li>i3 Gen 10</li>
                     <li>GTX 1650</li>
                     <li>1tb Almacenamiento HDD</li>
@@ -39,7 +43,7 @@
         <tr>
             <td>PC Gama Media</td>
             <td>
-                <ul>
+                <ul class="ulEstilo">
                     <li>Ryzen 5 3600</li>
                     <li>GTX 1660 TI</li>
                     <li>2tb Almacenamiento HDD</li>
@@ -51,7 +55,7 @@
         <tr>
             <td>PC Gama Alta</td>
             <td>
-                <ul>
+                <ul class="ulEstilo">
                     <li>i7 10 Gen/Ryzen 7 2700X</li>
                     <li>RTX 2080</li>
                     <li>4tb Almacenamiento HDD y 1tb SSD</li>
@@ -62,7 +66,7 @@
         <tr>
             <td>PC de la NASA</td>
             <td>
-                <ul>
+                <ul class="ulEstilo">
                     <li>Ryzen 9 5950X/I9 Gen 11</li>
                     <li>RTX 4090</li>
                     <li>8tb Almacenamiento HDD y 2tb SSD</li>
@@ -71,15 +75,16 @@
             <td>ARS 1.750.000/ USD 5000</td>
         </tr>
     </table>
-    <h2>GRÁFICAS</h2>
-    <img src="https://img.pccomponentes.com/pcblog/3866/elegir-tarjeta-grafica.jpg" alt="Tarjeta Gráfica" class="productosimg">
-    <table class="colorlistas colorparrafo1">
+    <hr>
+    <h2 class="colorParrafo1 fuenteTitulos">gráficas</h2>
+    <img src="https://img.pccomponentes.com/pcblog/3866/elegir-tarjeta-grafica.jpg" alt="Tarjeta Gráfica" class="ProductosImg">
+    <table class="colorListas colorParrafo1 estiloParrafo1">
         <tr>
             <th>Nombre</th>
             <th>Precio</th>
         </tr>
         <tr>
-            <td>GTX 1660 TI</td>
+            <td>GTX 1660 Ti</td>
             <td>ARS 130.000</td>
         </tr>
         <tr>
@@ -101,9 +106,10 @@
            
         </tr>
     </table>
-    <h2>Procesadores</h2>
-    <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/12/nuevos-procesadores-alder-lake-intel-llevan-experiencia-gaming-otro-nivel-2554955.jpg?tf=3840x" alt="Procesador pc" class="productosimg">
-    <table class="colorlistas colorparrafo1">
+    <hr>
+    <h2 class="colorParrafo1 fuenteTitulos">Procesadores</h2>
+    <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/12/nuevos-procesadores-alder-lake-intel-llevan-experiencia-gaming-otro-nivel-2554955.jpg?tf=3840x" alt="Procesador pc" class="ProductosImg">
+    <table class="colorListas colorParrafo1 estiloParrafo1">
         <tr>
             <th>Nombre</th>
             <th>Precio</th>
@@ -131,15 +137,15 @@
     </table>
 
     </main> 
-    <footer class="estilosfooter-header">
+    <footer class="estilosFooter-Header estiloParrafo2">
         <hr>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
+        <ul class="ulEstilo">
+            <li><a href="../index.html">HOME</a></li>
             <li>PRODUCTOS</li>
             <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
             <li><a href="contacto.html">CONTACTO</a></li>         
         </ul>
-        <p>(C) Bautista Birchmeyer, 2023. Todos los derechos reservados.</p>
+        <p>© Bautista Birchmeyer, 2023. Todos los derechos reservados.</p>
     </footer>  
 </body>
 </html>

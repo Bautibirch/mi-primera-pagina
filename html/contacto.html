@@ -5,42 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="estilosfooter-header">
+    <header class="estilosFooter-Header estiloParrafo2">
         <p>LOGO</p>
         <nav>
             <br>
-            <span><a href="index.html">HOME   </a> <a href="productos.html">   PRODUCTOS   </a><a href="sobre-nosotros.html">   SOBRE NOSOTROS   </a>   CONTACTO   </span>
+            <span><a href="../index.html">HOME   </a> <a href="productos.html">   PRODUCTOS   </a><a href="sobre-nosotros.html">   SOBRE NOSOTROS   </a>   CONTACTO   </span>
         </nav>
     </header>
-    <h1>Contáctanos</h1> 
+    <h1 class="colorParrafo1 fuenteTitulos">Contáctanos</h1> 
     <br>
-    <p class="colorparrafo1">Ingresá tus datos en el siguiente formulario para contactarte con nosotros.</p>
-    <form action="" method="">
-        <label for="Nombre" class="colorparrafo1">Nombre y Apellido</label>
-        <input type="text" id="Nombre" placeholder="Nombre">
-        <br>
-        <label for="email" class="colorparrafo1">Correo Electronico</label>
-        <input type="text" id="email" placeholder="Correo Electronico">
-        <br>
-        <label for="Mensaje" class="colorparrafo1">Mensaje</label>
-        <textarea name="" id="Mensaje" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea>
-        <br>
-        <input type="submit">
-        <input type="reset" value="Borrar Todo">
-    </form>
-    <form action="" method="">
-        <fieldset>
-            <legend class="colorparrafo1">Que tal te parecen nuestros precios?</legend>
-            <label for="precios1">Horribles</label>
+    <p class="colorParrafo1 estiloParrafo1">Ingresá tus datos en el siguiente formulario para contactarte con nosotros.</p>
+    <hr>
+     <div class="fondoDiv">
+        <form action="" method="" class="estiloParrafo1">
+            <label for="Nombre" class="colorparrafo1">Nombre y Apellido</label>
+            <input type="text" id="Nombre" placeholder="Nombre">
+            <br>
+            <label for="email" class="colorParrafo1">Correo Electronico</label>
+            <input type="text" id="email" placeholder="Correo Electronico">
+            <br>
+            <label for="Mensaje" class="colorParrafo1">Mensaje</label>
+            <textarea name="" id="Mensaje" cols="30" rows="10" placeholder="Ingresa tu mensaje"></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset" value="Borrar Todo">
+        </form>
+     </div>
+     <hr>
+    <div class="fondoDiv">
+        
+        <p class="colorParrafo1 estiloParrafo1">Que te parecen nuestros precios?</p>
+            <label for="precios1" class="colorParrafo1 estiloParrafo1">Horribles</label>
             <input type="radio" name="precios" id="precios1">
-            <label for="precios2" class="colorparrafo1">Nefastos</label>
+            <label for="precios2" class="colorParrafo1 estiloParrafo1">Nefastos</label>
             <input type="radio" name="precios" id="precios2">
-            <label for="precios3" class="colorparrafo1">Piolas</label>
+            <label for="precios3" class="colorParrafo1 estiloParrafo1">Piolas</label>
             <input type="radio" name="precios" id="precios3">
-            <legend class="colorparrafo1">Del 1 al 5, que tal te pareció nuestro sitio?</legend>
+            <legend class="colorparrafo1 estiloParrafo1">Del 1 al 5, que tal te pareció nuestro sitio?</legend>
             <select name="Puntuación" id="">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -49,21 +56,21 @@
                 <option value="5">5</option>
             </select>
             <br>
-            <label for="casilla" class="colorparrafo1">Si sos humano marca esta casilla</label>
+            <label for="casilla" class="colorParrafo1 estiloParrafo1">Si sos humano marca esta casilla</label>
             <input type="checkbox" id="casilla">
             <br>
             <input type="submit">
-        </fieldset>
+    </div>
     </form>
-    <footer class="estilosfooter-header">
+    <footer class="estilosFooter-Header estiloParrafo2">
         <hr>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
+        <ul class="ulEstilo">
+            <li><a href="../index.html">HOME</a></li>
             <li><a href="productos.html">PRODUCTOS</a></li>
             <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
             <li>CONTACTO</a></li>         
         </ul>
-        <p>(C) Bautista Birchmeyer, 2023. Todos los derechos reservados.</p>
+        <p>© Bautista Birchmeyer, 2023. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,119 @@
+/* GENERAL */
+body{
+    background-color: #F2F2F2;
+    margin: 0;
+}
+footer a {
+    color: rgb(204, 201, 201);
+}
+header a {
+    color: rgb(204, 201, 201);
+}
+
+table {
+    width: 50% ;
+    border-spacing: 0 ;
+}
+
+a {
+    text-decoration: none;
+}
+
+article img {
+    width: 250px;
+}
+/* INDEX */
+
+#TituloIndex {
+    color: #2c2a27;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+/* CLASES */
+.estilosFooter-Header {
+    background-color: #3B3936;
+    color: whitesmoke;
+}
+
+.colorParrafo1 {
+    color: #2c2a27;
+    margin: 0;
+}
+
+.colorParrafo2 {
+    color:#585859 ;
+    margin: 0;
+}
+.estiloParrafo1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.estiloParrafo2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+.interlineado {
+    line-height: 1.5;
+}
+
+.colorListas {
+    background-color: #8D95A6;
+}
+.aside {
+    width: fit-content;
+    background-color: #B6B9F2;
+    text-align: right;
+}
+
+.ProductosImg {
+    width: 200px;
+}
+
+.ulEstilo {
+    list-style-type: none;
+}
+
+.pIndex {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.fuenteTitulos {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.fondoDiv {
+    background-color: #B6B9F2;
+}
+/*
+.Prueba {
+    background-image :url(https://884e910d64.clvaw-cdnwnd.com/c9bf1596b060169a98f1c40490d409e7/200000179-b4d8eb4d91/Armado-De-Pc-gaming.jpg?ph=884e910d64) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+*/
+
+/* Color Theme Swatches in Hex */
+.UIUX-1-hex { color: #9794F2; }
+.UIUX-2-hex { color: #B6B9F2; }
+.UIUX-3-hex { color: #585859; }
+.UIUX-4-hex { color: #8D95A6; }
+.UIUX-5-hex { color: #F2F2F2; }
+
+
+
+
+
+
+
