@@ -1,7 +1,11 @@
 /* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #F2F2F2;
-    margin: 0;
+
 }
 footer a {
     color: rgb(204, 201, 201);
@@ -38,12 +42,10 @@ article img {
 
 .colorParrafo1 {
     color: #2c2a27;
-    margin: 0;
 }
 
 .colorParrafo2 {
     color:#585859 ;
-    margin: 0;
 }
 .estiloParrafo1 {
     font-family: 'Montserrat', sans-serif;
@@ -78,6 +80,7 @@ article img {
 
 .ulEstilo {
     list-style-type: none;
+    text-align: center;
 }
 
 .pIndex {
@@ -94,6 +97,11 @@ article img {
 
 .fondoDiv {
     background-color: #B6B9F2;
+}
+
+.menuHeader {
+    display: inline-block;
+    margin-right: 10px;
 }
 /*
 .Prueba {
