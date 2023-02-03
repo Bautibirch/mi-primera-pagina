@@ -29,15 +29,29 @@ article img {
 /* INDEX */
 
 #TituloIndex {
-    color: #2c2a27;
+    color: #f3f3f3;
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     font-weight: 600;
+    text-align: center;
+    font-size: 24px;
 }
 /* CLASES */
+
+.tituloH2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 28px;
+}
 .estilosFooter-Header {
     background-color: #3B3936;
     color: whitesmoke;
+}
+
+.header {
+    position: sticky;
+    top: 0;
 }
 
 .colorParrafo1 {
@@ -71,7 +85,7 @@ article img {
 .aside {
     width: fit-content;
     background-color: #B6B9F2;
-    text-align: right;
+    position: relative;
 }
 
 .ProductosImg {
@@ -80,7 +94,8 @@ article img {
 
 .ulEstilo {
     list-style-type: none;
-    text-align: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 .pIndex {
@@ -99,9 +114,24 @@ article img {
     background-color: #B6B9F2;
 }
 
+.marginMain {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .menuHeader {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.ulHeader {
+    list-style-type: none;
+    text-align: center;
+}
+
+.imgSize {
+    width: 20rem;
 }
 /*
 .Prueba {
